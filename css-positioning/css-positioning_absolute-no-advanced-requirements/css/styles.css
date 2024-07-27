@@ -26,6 +26,7 @@ main {
   text-align: center;
 }
 
+
 /**
  * Look at the selectors defined below.
  * Position each element, so that the placement matches the name of the selector.
@@ -57,8 +58,8 @@ bottom: 80px;
 .box--center {
   background-color: #3498db;
   position: absolute;
-  left: 220px
-  
+  top: 250px;
+  left: 220px; 
 }
 
 .box--bottom-left {
