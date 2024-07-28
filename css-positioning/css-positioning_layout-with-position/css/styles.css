@@ -22,7 +22,8 @@ body {
   height: 80px;
   box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
   padding: 10px;
-  position: sticky;
+  position: fixed;
+  width: 100%;
   top: 0px;
 }
 
@@ -42,13 +43,15 @@ body {
  * document is scrolled.
  */
 .footer {
-  background:  #7fD9E2;
+  background:  #35bebe;
   color: #ffffff;
   height: 48px;
   position: relative;
   top: 50px;
+  position: sticky;
+  bottom: 0px;
+  
 }
-
 /**
  *
  * Define the card as reference frame for descendant elements, that require absolute positioning.
@@ -59,7 +62,7 @@ body {
   padding: 3% 10%;
   scroll-margin-top: 100px;
   border-radius: 2rem;
-  
+ position: relative;
 }
 
 .card__heading {
@@ -75,6 +78,9 @@ body {
   padding: 6px 12px;
   border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
 /**
@@ -95,5 +101,10 @@ body {
   align-items: center;
   justify-content: center;
   
+  position: fixed;
+  bottom: 20px;
+  right:20px;
+  z-index: 1000;
+  cursor: pointer;
 }
 
