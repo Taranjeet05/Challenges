@@ -1,0 +1,12 @@
+header h1 {
+  text-align: center;
+  color: black;
+  background-color: antiquewhite;
+  font-size: 50px;
+}
+
+header p,
+header ol {
+  font-size: 20px;
+   }
+
