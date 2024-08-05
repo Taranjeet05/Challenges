@@ -53,6 +53,7 @@ greenButton.addEventListener("click", () => {
 
   removeAllColors();
   addColor("green");
+  
 });
 
 grayButton.addEventListener("click", () => {
@@ -62,6 +63,7 @@ grayButton.addEventListener("click", () => {
 
   removeAllColors();
   addColor("gray");
+
 });
 
 // Write your two functions below:
