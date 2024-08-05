@@ -41,7 +41,7 @@ function logType(data) {
   }
 }
 
-// Test different values
+// Test you different values in index.js.
 logType(undefined); // "undefined!"
 logType(null); // "null!"
 logType(42); // "number!"
