@@ -22,7 +22,7 @@ Your component should contain the following parts:
    <article class ="article">
     <h2 class ="article__title">Hello Everyone to learn React </h2>
     <label htmlFor="react"><input type="text" id ="input--tag" /></label>
-    <a href="https://github.com/" class = "article__link"></a>
+    <a href="https://github.com/" class = "article__link" target = "_blank">Click Here</a>
    </article>
   );
  }
