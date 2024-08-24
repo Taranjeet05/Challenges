@@ -26,3 +26,7 @@ Your component should contain the following parts:
    </article>
   );
  }
+
+
+
+ 
