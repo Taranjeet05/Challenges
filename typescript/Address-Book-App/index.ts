@@ -1,4 +1,4 @@
-
+// 1. Define the structure of an Item
 interface Item {
   id: string;       
   name: string;     
