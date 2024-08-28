@@ -6,7 +6,6 @@ export default function App() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
 
-  // Function to update the state with form data
   function handleCreateUser(nameValue, emailValue) {
     setName(nameValue);
     setEmail(emailValue);
@@ -15,7 +14,6 @@ export default function App() {
   return (
     <div className="container">
       <h1>Personal Details Form</h1>
-      {/* Pass handleCreateUser to Form as onSubmit */}
       <Form onSubmit={handleCreateUser} />
       <h2>Your submitted details:</h2>
       <p>
