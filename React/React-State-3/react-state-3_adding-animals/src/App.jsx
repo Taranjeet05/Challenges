@@ -25,9 +25,7 @@ const initialAnimals = [
 export default function App() {
   const [animals, setAnimals] = useState(initialAnimals);
 
-  // Update handleAddAnimal to add the new animal with a unique id
   function handleAddAnimal(newAnimal) {
-    // Set the new animal into the state with a unique id
     setAnimals([...animals, { id: uid(), ...newAnimal }]);
   }
 
