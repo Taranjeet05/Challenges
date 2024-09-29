@@ -1,5 +1,13 @@
 import "./App.css";
 
+function Smiley({ isHappy }) {
+  return (
+    <span role="img" aria-label={isHappy ? "happy" : "sad"}>
+      {isHappy ? "😄" : "😢"}
+    </span>
+  );
+}
+
 export default function App() {
-  return <h1>Replace me with your component!</h1>;
+  return <Smiley isHappy={true} />; 
 }
