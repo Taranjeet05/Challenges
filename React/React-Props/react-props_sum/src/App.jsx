@@ -1,5 +1,10 @@
 import "./App.css";
 
+function Sum({ valueA, valueB }) {
+  const sum = valueA + valueB;
+  return <p>{`${valueA} + ${valueB} = ${sum}`}</p>;
+}
+
 export default function App() {
-  return <h1>Replace me with your component!</h1>;
+  return <Sum valueA={1} valueB={2} />;
 }
